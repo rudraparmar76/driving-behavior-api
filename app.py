@@ -103,6 +103,3 @@ def predict_behavior():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-# Run the app (if you're testing locally)
-if __name__ == "__main__":
-    app.run(debug=True)
