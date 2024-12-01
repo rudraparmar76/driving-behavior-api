@@ -1,1 +1,3 @@
 .vercel
+motion_classification_model.keras
+scaler.pkl
